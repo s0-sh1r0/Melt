@@ -1,0 +1,14 @@
+# すべてのテキストファイルは自動で改行統一
+* text=auto
+
+# Swift / シェルスクリプトは LF 固定
+*.swift text eol=lf
+*.sh    text eol=lf
+
+# Xcode プロジェクトファイルのマージを union に
+*.pbxproj merge=union
+
+# 画像やアセットはバイナリ扱い
+*.png binary
+*.jpg binary
+*.xcassets binary
