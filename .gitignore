@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods（使う場合のみ）
+Pods/
+Podfile.lock
+
+# Carthage（使う場合のみ）
+Carthage/
+
+# Fastlane（将来使う場合）
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Secrets（将来使う場合）
+appname/Config/Secrets.local.xcconfig
