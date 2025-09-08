@@ -1,5 +1,6 @@
 import SwiftUI
 
+// MARK: - View
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -12,6 +13,7 @@ struct ContentView: View {
     }
 }
 
+// MARK: - PreView
 #Preview {
     ContentView()
 }
